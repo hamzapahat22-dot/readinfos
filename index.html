@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReadInfos — Your Gateway to Knowledge</title>
+    <meta name="description" content="ReadInfos is your premium destination for curated articles, insights, and knowledge across technology, science, lifestyle, and more.">
+    <meta name="keywords" content="readinfos, articles, knowledge, technology, science, lifestyle, insights">
+    <meta name="author" content="ReadInfos">
+
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3010615645608537"
+         crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav id="navbar" class="navbar">
+        <div class="container nav-container">
+            <a href="#" id="nav-logo" class="nav-logo">
+                <span class="logo-icon">📖</span>
+                <span class="logo-text">Read<span class="logo-accent">Infos</span></span>
+            </a>
+            <ul id="nav-links" class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#trending" class="nav-link">Trending</a></li>
+                <li><a href="#categories" class="nav-link">Categories</a></li>
+                <li><a href="#latest" class="nav-link">Latest</a></li>
+                <li><a href="#newsletter" class="nav-link">Newsletter</a></li>
+            </ul>
+            <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <header id="home" class="hero">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-badge">✨ Your Gateway to Knowledge</div>
+            <h1 class="hero-title">
+                Discover Stories That <br>
+                <span class="hero-gradient-text">Inspire &amp; Inform</span>
+            </h1>
+            <p class="hero-subtitle">
+                Curated articles, deep insights, and fresh perspectives across technology, science, lifestyle, and beyond. Stay curious, stay informed.
+            </p>
+            <div class="hero-actions">
+                <a href="#trending" id="hero-cta-explore" class="btn btn-primary">
+                    Explore Articles
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="#categories" id="hero-cta-categories" class="btn btn-ghost">Browse Categories</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" data-target="1200">0</span>+
+                    <span class="stat-label">Articles</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-target="50">0</span>K+
+                    <span class="stat-label">Readers</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-target="30">0</span>+
+                    <span class="stat-label">Categories</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== AD SLOT 1 ===== -->
+    <section class="ad-section">
+        <div class="container">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-3010615645608537"
+                 data-ad-slot="auto"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+    </section>
+
+    <!-- ===== TRENDING SECTION ===== -->
+    <section id="trending" class="section trending-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">🔥 Trending Now</span>
+                <h2 class="section-title">What's Hot Today</h2>
+                <p class="section-subtitle">The most-read articles our community is buzzing about</p>
+            </div>
+            <div class="trending-grid">
+                <article id="trending-card-1" class="trending-card featured">
+                    <div class="card-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <span class="card-category">Technology</span>
+                        <div class="card-image-icon">🤖</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <span>8 min read</span>
+                            <span>•</span>
+                            <span>July 16, 2026</span>
+                        </div>
+                        <h3 class="card-title">The Future of AI: How Machine Learning Is Reshaping Every Industry</h3>
+                        <p class="card-excerpt">From healthcare diagnostics to creative arts, artificial intelligence is no longer a futuristic concept — it's today's reality transforming how we live and work.</p>
+                        <div class="card-footer">
+                            <div class="card-author">
+                                <div class="author-avatar" style="background: #667eea;">S</div>
+                                <span>Sarah Chen</span>
+                            </div>
+                            <span class="card-views">12.4K views</span>
+                        </div>
+                    </div>
+                </article>
+                <article id="trending-card-2" class="trending-card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <span class="card-category">Health</span>
+                        <div class="card-image-icon">🧬</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <span>5 min read</span>
+                            <span>•</span>
+                            <span>July 15, 2026</span>
+                        </div>
+                        <h3 class="card-title">Biohacking 101: Science-Backed Ways to Optimize Your Body</h3>
+                        <p class="card-excerpt">Discover evidence-based strategies to boost energy, sharpen focus, and unlock your full potential.</p>
+                        <div class="card-footer">
+                            <div class="card-author">
+                                <div class="author-avatar" style="background: #f5576c;">M</div>
+                                <span>Dr. Maya Patel</span>
+                            </div>
+                            <span class="card-views">8.7K views</span>
+                        </div>
+                    </div>
+                </article>
+                <article id="trending-card-3" class="trending-card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <span class="card-category">Science</span>
+                        <div class="card-image-icon">🌌</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <span>6 min read</span>
+                            <span>•</span>
+                            <span>July 14, 2026</span>
+                        </div>
+                        <h3 class="card-title">James Webb Telescope: New Discoveries Rewriting Cosmic History</h3>
+                        <p class="card-excerpt">Recent observations reveal galaxies that shouldn't exist, challenging our understanding of the universe.</p>
+                        <div class="card-footer">
+                            <div class="card-author">
+                                <div class="author-avatar" style="background: #4facfe;">A</div>
+                                <span>Alex Rivera</span>
+                            </div>
+                            <span class="card-views">6.2K views</span>
+                        </div>
+                    </div>
+                </article>
+                <article id="trending-card-4" class="trending-card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                        <span class="card-category">Finance</span>
+                        <div class="card-image-icon">📈</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <span>7 min read</span>
+                            <span>•</span>
+                            <span>July 13, 2026</span>
+                        </div>
+                        <h3 class="card-title">Building Wealth in 2026: Smart Investment Strategies for Beginners</h3>
+                        <p class="card-excerpt">A beginner-friendly guide to growing your money with index funds, real estate, and emerging markets.</p>
+                        <div class="card-footer">
+                            <div class="card-author">
+                                <div class="author-avatar" style="background: #43e97b;">J</div>
+                                <span>James Liu</span>
+                            </div>
+                            <span class="card-views">5.9K views</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== AD SLOT 2 ===== -->
+    <section class="ad-section">
+        <div class="container">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-3010615645608537"
+                 data-ad-slot="auto"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+    </section>
+
+    <!-- ===== CATEGORIES SECTION ===== -->
+    <section id="categories" class="section categories-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">📂 Explore</span>
+                <h2 class="section-title">Browse by Category</h2>
+                <p class="section-subtitle">Dive into the topics that spark your curiosity</p>
+            </div>
+            <div class="categories-grid">
+                <a href="#" id="cat-technology" class="category-card" style="--cat-color: #667eea;">
+                    <div class="cat-icon">💻</div>
+                    <h3>Technology</h3>
+                    <p>AI, gadgets, software &amp; innovation</p>
+                    <span class="cat-count">240 articles</span>
+                </a>
+                <a href="#" id="cat-science" class="category-card" style="--cat-color: #4facfe;">
+                    <div class="cat-icon">🔬</div>
+                    <h3>Science</h3>
+                    <p>Discoveries, space &amp; research</p>
+                    <span class="cat-count">185 articles</span>
+                </a>
+                <a href="#" id="cat-health" class="category-card" style="--cat-color: #f5576c;">
+                    <div class="cat-icon">❤️</div>
+                    <h3>Health</h3>
+                    <p>Wellness, nutrition &amp; fitness</p>
+                    <span class="cat-count">210 articles</span>
+                </a>
+                <a href="#" id="cat-finance" class="category-card" style="--cat-color: #43e97b;">
+                    <div class="cat-icon">💰</div>
+                    <h3>Finance</h3>
+                    <p>Investing, markets &amp; personal finance</p>
+                    <span class="cat-count">132 articles</span>
+                </a>
+                <a href="#" id="cat-lifestyle" class="category-card" style="--cat-color: #fa709a;">
+                    <div class="cat-icon">🌿</div>
+                    <h3>Lifestyle</h3>
+                    <p>Travel, culture &amp; self-improvement</p>
+                    <span class="cat-count">178 articles</span>
+                </a>
+                <a href="#" id="cat-education" class="category-card" style="--cat-color: #a18cd1;">
+                    <div class="cat-icon">📚</div>
+                    <h3>Education</h3>
+                    <p>Learning, courses &amp; career tips</p>
+                    <span class="cat-count">156 articles</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== LATEST ARTICLES SECTION ===== -->
+    <section id="latest" class="section latest-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">📰 Fresh Reads</span>
+                <h2 class="section-title">Latest Articles</h2>
+                <p class="section-subtitle">Stay updated with our newest content</p>
+            </div>
+            <div class="latest-grid">
+                <article id="latest-card-1" class="latest-card">
+                    <div class="latest-number">01</div>
+                    <div class="latest-content">
+                        <span class="latest-category" style="color: #667eea;">Technology</span>
+                        <h3>Quantum Computing Reaches New Milestone with 1000-Qubit Processor</h3>
+                        <p>A breakthrough that brings practical quantum computing closer to everyday applications.</p>
+                        <div class="latest-meta">
+                            <span>4 min read</span>
+                            <span>•</span>
+                            <span>2 hours ago</span>
+                        </div>
+                    </div>
+                </article>
+                <article id="latest-card-2" class="latest-card">
+                    <div class="latest-number">02</div>
+                    <div class="latest-content">
+                        <span class="latest-category" style="color: #f5576c;">Health</span>
+                        <h3>New Study Links Gut Microbiome Diversity to Mental Health Improvements</h3>
+                        <p>Researchers find compelling evidence connecting digestive health to emotional wellbeing.</p>
+                        <div class="latest-meta">
+                            <span>6 min read</span>
+                            <span>•</span>
+                            <span>5 hours ago</span>
+                        </div>
+                    </div>
+                </article>
+                <article id="latest-card-3" class="latest-card">
+                    <div class="latest-number">03</div>
+                    <div class="latest-content">
+                        <span class="latest-category" style="color: #43e97b;">Finance</span>
+                        <h3>Green Bonds Market Surges as Sustainable Investing Goes Mainstream</h3>
+                        <p>ESG-focused investments hit record highs as investors align portfolios with climate goals.</p>
+                        <div class="latest-meta">
+                            <span>5 min read</span>
+                            <span>•</span>
+                            <span>8 hours ago</span>
+                        </div>
+                    </div>
+                </article>
+                <article id="latest-card-4" class="latest-card">
+                    <div class="latest-number">04</div>
+                    <div class="latest-content">
+                        <span class="latest-category" style="color: #a18cd1;">Education</span>
+                        <h3>The Rise of Micro-Credentials: Are Traditional Degrees Becoming Obsolete?</h3>
+                        <p>How bite-sized certifications are reshaping the hiring landscape across industries.</p>
+                        <div class="latest-meta">
+                            <span>7 min read</span>
+                            <span>•</span>
+                            <span>12 hours ago</span>
+                        </div>
+                    </div>
+                </article>
+                <article id="latest-card-5" class="latest-card">
+                    <div class="latest-number">05</div>
+                    <div class="latest-content">
+                        <span class="latest-category" style="color: #4facfe;">Science</span>
+                        <h3>Deep Ocean Expedition Discovers New Species in the Mariana Trench</h3>
+                        <p>Scientists catalogue 12 previously unknown organisms thriving under extreme pressure.</p>
+                        <div class="latest-meta">
+                            <span>5 min read</span>
+                            <span>•</span>
+                            <span>1 day ago</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== AD SLOT 3 ===== -->
+    <section class="ad-section">
+        <div class="container">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-3010615645608537"
+                 data-ad-slot="auto"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+    </section>
+
+    <!-- ===== NEWSLETTER SECTION ===== -->
+    <section id="newsletter" class="section newsletter-section">
+        <div class="container">
+            <div class="newsletter-card">
+                <div class="newsletter-bg-shapes">
+                    <div class="nl-shape nl-shape-1"></div>
+                    <div class="nl-shape nl-shape-2"></div>
+                </div>
+                <div class="newsletter-content">
+                    <span class="section-badge">✉️ Stay Connected</span>
+                    <h2>Get the Best Reads<br>In Your Inbox</h2>
+                    <p>Join 50,000+ curious readers. Weekly digest of our top articles — zero spam, unsubscribe anytime.</p>
+                    <form id="newsletter-form" class="newsletter-form" onsubmit="handleSubscribe(event)">
+                        <div class="form-group">
+                            <input type="email" id="newsletter-email" placeholder="Enter your email address" required aria-label="Email address">
+                            <button type="submit" id="newsletter-submit" class="btn btn-primary">Subscribe</button>
+                        </div>
+                        <p class="form-note">🔒 We respect your privacy. No spam, ever.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="nav-logo">
+                        <span class="logo-icon">📖</span>
+                        <span class="logo-text">Read<span class="logo-accent">Infos</span></span>
+                    </a>
+                    <p>Your premium destination for curated articles, insights, and knowledge. Stay curious, stay informed.</p>
+                    <div class="social-links">
+                        <a href="#" id="social-twitter" class="social-link" aria-label="Twitter">𝕏</a>
+                        <a href="#" id="social-facebook" class="social-link" aria-label="Facebook">f</a>
+                        <a href="#" id="social-instagram" class="social-link" aria-label="Instagram">📷</a>
+                        <a href="#" id="social-linkedin" class="social-link" aria-label="LinkedIn">in</a>
+                    </div>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#trending">Trending</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="#latest">Latest</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Science</a></li>
+                        <li><a href="#">Health</a></li>
+                        <li><a href="#">Finance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ReadInfos. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
